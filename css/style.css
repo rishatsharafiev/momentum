@@ -163,25 +163,26 @@ ul, ol {
 
 @media(min-width:768px) {
 .intro {
-	height: 100%;
+	height: 65%;
 	padding: 0;
 }
 .intro .intro-body H1 {
 	font-size: 50px;
 	font-weight: 700;
 	letter-spacing: -2px;
+	margin-top: 60px;
 }
 .intro .intro-body .intro-text {
 	font-size: 14px;
 	text-transform: uppercase;
 	letter-spacing: 8px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 }
 .btn-circle {
 	width: 70px;
 	height: 70px;
-	margin-top: 45px;
+	margin-top: 10px;
 	padding: 7px 16px;
 	border: 2px solid rgba(255,255,255,.2);
 	border-radius: 100%!important;
@@ -259,9 +260,85 @@ ul, ol {
 	margin-bottom: 30px;
 	border: 0;
 }
+
+/* Info Section */
+#info {
+	min-height: 35%;
+	padding: 30px 0;
+	color: #6f7275;
+	background: #cccccc; /* Old browsers */
+}
+.info-box {
+	text-align: center;
+	margin: 20px 0;
+}
+.info-box i.fa {
+	font-size: 60px;
+	font-weight: 400;
+	color: #F4D03F;
+	margin-bottom: 20px;
+}
+.info-box h4 {
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.info-box span.count {
+	font-size: 36px;
+	font-weight: 700;
+	color: #fff;
+	display: block;
+}
+.info-box li {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+/* Solutions Section */
+#solutions {
+	padding: 40px 0;
+	color: #444;
+	background: #f4d03f; /* Old browsers */
+	background: -moz-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #f4d03f), color-stop(100%, #c3a632)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #f4d03f 70%, #c3a632 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4d03f', endColorstr='#c3a632', GradientType=0 ); /* IE6-9 */
+}
+#solutions .solutions-text {
+	margin-left: 10px;
+}
+#solutions .section-title.center hr {
+	background: #f7dc6f;
+}
+#solutions .padding-left {
+	padding-left: 50px;
+}
+#solutions H4 {
+	color: #333;
+}
+#solutions i.fa {
+	float: left;
+	display: block;
+	margin-right: 15px;
+	color: #fff;
+	font-size: 24px;
+	text-shadow: 0 0 1px #666;
+}
+#solutions img {
+	margin-top: -30px;
+	margin-left: 10px;
+}
+#solutions p {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
 /* About Section */
 #about {
-	padding: 80px 0;
+	padding: 40px 0;
 	color: #444;
 	background: #f4d03f; /* Old browsers */
 	background: -moz-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* FF3.6+ */
@@ -302,7 +379,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4d03f', end
 }
 /* Achivements Section */
 #achivements {
-	padding: 80px 0;
+	padding: 40px 0;
 	color: #aaa;
 	background: #6f7275; /* Old browsers */
 	background: -moz-linear-gradient(top, #6f7275 0%, #31353a 100%); /* FF3.6+ */
@@ -336,7 +413,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f7275', end
 }
 /* Team Section */
 #team {
-	padding: 80px 0;
+	padding: 40px 0;
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #cccccc)); /* Chrome,Safari4+ */
@@ -366,7 +443,7 @@ img.img-circle.team-img {
 }
 /* Services Section */
 #services {
-	padding: 80px 0;
+	padding: 40px 0;
 	color: #aaa;
 	background: #6f7275; /* Old browsers */
 	background: -moz-linear-gradient(top, #6f7275 0%, #31353a 100%); /* FF3.6+ */
@@ -416,7 +493,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f7275', end
 /* Gallery Section
 ==============================*/
 #works {
-	padding: 80px 0;
+	padding: 40px 0;
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #cccccc)); /* Chrome,Safari4+ */
@@ -563,7 +640,7 @@ ol.type li a:hover {
 	background-size: cover;
 	background-attachment: fixed;
 	color: #ddd;
-	padding: 80px 0;
+	padding: 40px 0;
 }
 #testimonial {
 	padding: 0;
@@ -601,7 +678,7 @@ ol.type li a:hover {
 }
 /* Contact Section */
 #contact {
-	padding: 80px 0;
+	padding: 40px 0;
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #cccccc)); /* Chrome,Safari4+ */
