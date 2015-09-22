@@ -345,6 +345,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4d03f', end
 	margin-bottom: 15px;
 }
 
+/* Fast contact */
+.fast_contact {
+	padding-top: 40px;
+	opacity: 1;
+}
+
+.fast_contact h3 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
 /* Equipment Section */
 #equipment {
 	padding: 40px 0;
@@ -804,6 +818,16 @@ label {
 a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
 	outline: none;
 	outline-offset: none;
+}
+#map .row {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+#map .row .col-md-12 {
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
 /* Footer */
 nav#footer {
