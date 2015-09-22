@@ -362,13 +362,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4d03f', end
 #equipment {
 	padding: 40px 0;
 	background: #ffffff; /* Old browsers */
-	background: -moz-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #cccccc)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #ffffff 0%, #cccccc 100%); /* W3C */
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc', GradientType=0 ); /* IE6-9 */
+	/*
+	background: -moz-linear-gradient(top, #ffffff 0%, #cccccc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #cccccc));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #cccccc 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #cccccc 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #cccccc 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #cccccc 100%);
+ 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc', GradientType=0 );
+ 	*/
 }
 img.img-circle.equipment-img {
 	width: 120px;
@@ -408,14 +410,30 @@ img.img-circle.equipment-img {
 	padding-left: 0;
 }
 
-#equipment .slick-prev {
-	left: 0;
-	z-index: 1000;
+@media (max-width: 970px) {
+	#equipment .slick-prev {
+		left: 0;
+		z-index: 1000;
+	}
+	#equipment .slick-next {
+		right: 10px;
+		z-index: 1000;
+	}
 }
 
-#equipment .slick-next {
-	right: 0;
-	z-index: 1000;
+#equipment .slick-prev, .slick-next {
+	height: 40px;
+	width: 40px;
+  margin-top: -30px;
+}
+#equipment .slick-prev:before, .slick-next:before {
+	font-size: 40px;
+	color: #cccccc;
+}
+@media (max-width: 992px) {
+	.pull-right-sm {
+	  float: right;
+	}
 }
 
 /* About Section */
@@ -873,3 +891,4 @@ nav#footer p {
 }
 #footer i.fa:hover {
 	color: #F4D03F;
+}
