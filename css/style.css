@@ -14,7 +14,6 @@ h1 strong {
 }
 h2 {
 	text-transform: uppercase;
-	line-height: 20px;
 	margin: 0;
 }
 h3 {
@@ -399,6 +398,24 @@ img.img-circle.equipment-img {
 }
 #equipment .padding-left {
 	padding-left: 30px;
+}
+#equipment .slick-slide {
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearence: none;
+	appearence: none;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#equipment .slick-prev {
+	left: 0;
+	z-index: 1000;
+}
+
+#equipment .slick-next {
+	right: 0;
+	z-index: 1000;
 }
 
 /* About Section */
