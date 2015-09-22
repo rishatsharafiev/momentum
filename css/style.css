@@ -430,6 +430,12 @@ img.img-circle.equipment-img {
 	font-size: 40px;
 	color: #cccccc;
 }
+@media (max-width: 992px) {
+	.pull-right-sm {
+	  float: right;
+	}
+}
+
 /* About Section */
 #about {
 	padding: 40px 0;
@@ -885,3 +891,4 @@ nav#footer p {
 }
 #footer i.fa:hover {
 	color: #F4D03F;
+}
