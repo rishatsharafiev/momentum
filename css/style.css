@@ -409,18 +409,18 @@ img.img-circle.equipment-img {
 	padding-right: 0;
 	padding-left: 0;
 }
-#equipment .slick-prev {
-	left: 0;
-	z-index: 1000;
+
+@media (max-width: 970px) {
+	#equipment .slick-prev {
+		left: 0;
+		z-index: 1000;
+	}
+	#equipment .slick-next {
+		right: 10px;
+		z-index: 1000;
+	}
 }
-#equipment .slick-next {
-	right: 0;
-	z-index: 1000;
-}
-#equipment .slick-next {
-	right: 10px;
-	z-index: 1000;
-}
+
 #equipment .slick-prev, .slick-next {
 	height: 40px;
 	width: 40px;
