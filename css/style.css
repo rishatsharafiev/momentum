@@ -413,18 +413,17 @@ img.img-circle.equipment-img {
 @media (max-width: 1024px) {
 	#equipment .slick-prev {
 		left: 0;
-		z-index: 1000;
 	}
 	#equipment .slick-next {
 		right: 10px;
-		z-index: 1000;
 	}
 }
 
 #equipment .slick-prev, .slick-next {
 	height: 40px;
 	width: 40px;
-  margin-top: -30px;
+ 	margin-top: -30px;
+ 	z-index: 1000;
 }
 #equipment .slick-prev:before, .slick-next:before {
 	font-size: 40px;
