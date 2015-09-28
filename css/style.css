@@ -909,6 +909,7 @@ nav#footer p {
 #certificate {
 	padding: 60px 0;
 	background: #F7F5F5;
+	min-height: 70%;
 }
 #certificate .container {
 	padding-left: 120px;
@@ -947,7 +948,7 @@ nav#footer p {
 	padding: 60px 0;
 	color: #444;
 	background: #F7F5F5; /* Old browsers */
-	min-height: 600px;
+	min-height: 70%;
 }
 #company .company-text {
 	margin-left: 10px;
@@ -986,7 +987,7 @@ nav#footer p {
 #projects {
 	padding: 60px 0;
 	background: #F7F5F5; /* Old browsers */
-	min-height: 600px;
+	min-height: 70%;
 }
 .categories {
 	padding-bottom: 30px;
@@ -1124,7 +1125,7 @@ ol.type li a:hover {
 #contact_page {
 	padding-top: 60px;
 	background: #F7F5F5; /* Old browsers */
-	min-height: 600px;
+	min-height: 70%;
 }
 #contact_page h3 {
 	font-size: 20px;
