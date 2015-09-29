@@ -943,6 +943,11 @@ nav#footer p {
 #certificate .row > div {
 	margin-bottom: 20px;
 }
+#certificate .anchor {
+	display:block;
+	margin-bottom:70px; 
+	margin-top:-70px;
+}
 
 /* Company Page */
 #company {
