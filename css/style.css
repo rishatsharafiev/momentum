@@ -987,9 +987,54 @@ nav#footer p {
 /* Projects Page */
 #projects {
 	padding: 60px 0;
+	background: #F7F5F5;
+	min-height: 70%;
+}
+#projects .container {
+	padding-left: 120px;
+	padding-right: 120px;
+}
+#projects .section-title.center hr {
+	background: #f7dc6f;
+}
+#projects .padding-left {
+	padding-left: 50px;
+}
+#projects H4 {
+	color: #333;
+}
+#projects i.fa {
+	float: left;
+	display: block;
+	margin-right: 15px;
+	color: #fff;
+	font-size: 24px;
+	text-shadow: 0 0 1px #666;
+}
+#projects img {    
+	margin: auto;
+	width: 100%;
+}
+#projects p {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#projects .row > div {
+	margin-bottom: 40px;
+}
+
+#projects {
+	padding: 60px 0;
 	background: #F7F5F5; /* Old browsers */
 	min-height: 70%;
 }
+
+#projects .anchor {
+	display:block;
+	margin-bottom:70px; 
+	margin-top:-70px;
+}
+
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
@@ -1115,11 +1160,6 @@ ol.type li a:hover {
 }
 .hover-bg:hover .hover-text {
 	opacity: 1;
-}
-#projects i.fa {
-	font-size: 20px;
-	padding: 5px;
-	color: #F4D03F;
 }
 
 /* Contact Page */
