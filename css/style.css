@@ -932,8 +932,9 @@ nav#footer p {
 	font-size: 24px;
 	text-shadow: 0 0 1px #666;
 }
-#certificate img {
-	margin-left: 10px;
+#certificate img {    
+	margin: auto;
+	width: 65%;
 }
 #certificate p {
 	margin-top: 20px;
